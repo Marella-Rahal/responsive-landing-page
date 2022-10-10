@@ -1,4 +1,3 @@
-import Link from "next/link";
 import Navbar from "../components/Navbar";
 
 
@@ -34,7 +33,7 @@ export default function Home() {
 
             <div>
 
-                  <img src="illustration-intro.svg" alt=""/>
+                  <img  src="illustration-intro.svg" alt=""/>
 
             </div>
 
@@ -50,7 +49,7 @@ export default function Home() {
         <div className=" md:w-1/2 mx-auto space-y-10 flex flex-col text-center md:text-left">
 
             <h2 className="font-bold text-2xl md:text-3xl max-w-md">
-            What's different about Manage?
+            What&apos;s different about Manage?
             </h2>
 
             <p className="text-darkGrayishBlue text-lg max-w-md">
@@ -145,7 +144,7 @@ export default function Home() {
 
         {/* //todo1 */}
         <div>
-          <h2 className="font-bold text-2xl md:text-3xl">What's Different About Manage?</h2>
+          <h2 className="font-bold text-2xl md:text-3xl">What&apos;s Different About Manage?</h2>
         </div>
 
         {/* //todo2  */}
@@ -153,7 +152,7 @@ export default function Home() {
 
           <div className="flex flex-col items-center bg-veryLightGray justify-between space-y-7 max-w-xs p-3 rounded-lg">
 
-            <img src="avatar-anisha.png" alt="" className="w-1/4 -mt-12"/>
+            <img  src="avatar-anisha.png" alt="" className="w-1/4 -mt-12"/>
 
             <h2 className="font-bold">Anisha Li</h2>
 
@@ -164,7 +163,7 @@ export default function Home() {
 
           <div className="flex flex-col items-center bg-veryLightGray justify-between space-y-7 max-w-xs p-3 rounded-lg">
 
-            <img src="avatar-ali.png" alt="" className="w-1/4 -mt-12"/>
+            <img  src="avatar-ali.png" alt="" className="w-1/4 -mt-12"/>
 
             <h2 className="font-bold">Ali Bravo</h2>
 
@@ -218,30 +217,30 @@ export default function Home() {
           </div>
 
           <div>
-            <img src="logo-white.svg"/>
+            <img  src="logo-white.svg" alt=""/>
           </div>
-          
+  
           
           <div className="flex  space-x-5">
 
               <a href="#">
-                <img src="icon-facebook.svg"/>
+                <img  src="icon-facebook.svg" alt=""/>
               </a>
 
               <a href="#">
-                <img src="icon-youtube.svg"/>
+                <img  src="icon-youtube.svg" alt=""/>
               </a>
 
               <a href="#">
-                <img src="icon-twitter.svg"/>
+                <img  src="icon-twitter.svg" alt=""/>
               </a>
 
               <a href="#">
-                <img src="icon-pinterest.svg"/>
+                <img src="icon-pinterest.svg" alt=""/>
               </a>
 
               <a href="#">
-                <img src="icon-instagram.svg"/>
+                <img src="icon-instagram.svg" alt=""/>
               </a>
 
           </div>

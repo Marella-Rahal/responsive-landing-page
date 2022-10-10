@@ -1,4 +1,4 @@
-import $ from "jquery"
+import $ from "jquery";
 export default function Navbar() {
 
   const openMenu=()=>{
@@ -21,14 +21,14 @@ export default function Navbar() {
         <div className="relative container flex items-center justify-between p-3 mx-auto my-5">
 
                 <div>
-                    <img src="logo.svg" alt="logo"/>
+                    <img  src="logo.svg" alt=""/>
                 </div>
 
                 <div className="md:hidden">
 
-                    <img id="hamburger" src="icon-hamburger.svg" alt="logo" onClick={openMenu} style={{display:'flex'}}/>
+                    <img  id="hamburger" src="icon-hamburger.svg" alt="" onClick={openMenu} style={{display:'flex'}}/>
                     
-                    <img id="close" src="icon-close.svg" alt="logo" onClick={closeMenu} style={{display:'none'}}/>
+                    <img  id="close" src="icon-close.svg" alt="" onClick={closeMenu} style={{display:'none'}}/>
 
                 </div>
 
